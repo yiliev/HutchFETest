@@ -2,11 +2,11 @@
 
 Welcome to the coding test for the Hutch Front End Developer position. In this repository, you'll find a very bare bones Angular SPA containing some interfaces from one of our games and some services to load mock data that fulfils the interface contracts.
 
-Working in the branch you have been assigned, ee would like you to work through the following tasks: 
+Working in the branch you have been assigned, we would like you to work through the following tasks: 
 
 ## Displaying the PortalSync data
 
-You will find a large chuck of mock data supplied in `adminportal/src/app/mockdata/PortalSync.ts`. This is the sort of size of data we would expect our customer service agents to load for any player in our game. It contains several different pieces of information for a player, based on different parts of the meta game - eg their garage of cars, progress through different tiers, how many ads they have watched, how many purchases they have made etc. 
+You will find a large chunk of mock data supplied in `adminportal/src/app/mockdata/PortalSync.ts`. This is the sort of size of data we would expect our customer service agents to load for any player in our game. It contains several different pieces of information for a player, based on different parts of the meta game - eg their garage of cars, progress through different tiers, how many ads they have watched, how many purchases they have made etc. 
 
 We would like you to provide a clean, fast, user-friendly interface for loading and viewing this data. Feel free to split the data up and provide multiple services if you would prefer - however you see fit with these core ideas in mind. To load a user's data, we would expect the UI to support searching by:
 
