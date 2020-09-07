@@ -10,13 +10,13 @@ You will find a large chunk of mock data supplied in `adminportal/src/app/mockda
 
 We would like you to provide a clean, fast, user-friendly interface for loading and viewing this data. Feel free to split the data up and provide multiple services if you would prefer - however you see fit with these core ideas in mind. To load a user's data, we would expect the UI to support searching by:
 
-+HutchId (unique, 1-1 relationship)
-+FacebookId (unique, 1-1 relationship)
-+GoogleId (unique, 1-1 relationship)
-+AppleId (unique, 1-1 relationship)
-+DeviceId (non-unique, 1-many relationship)
-+GoogleReceiptId (non-unique, 1-many relationship)
-+Social Name (non-unique, 1-many relationship)
+*HutchId (unique, 1-1 relationship)
+*FacebookId (unique, 1-1 relationship)
+*GoogleId (unique, 1-1 relationship)
+*AppleId (unique, 1-1 relationship)
+*DeviceId (non-unique, 1-many relationship)
+*GoogleReceiptId (non-unique, 1-many relationship)
+*Social Name (non-unique, 1-many relationship)
 
 You don't need to implement the search (just load the mock data) but we would like to see how you would present this form and the options returned by it.
 
