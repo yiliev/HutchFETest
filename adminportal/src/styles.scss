@@ -1,0 +1,65 @@
+@font-face{
+    font-weight: 100;
+    font-family: Geomanist;
+    src: url(./assets/fonts/geomanist-light.woff2) format("woff2"),
+        url(./assets/fonts/geomanist-light.woff) format("woff");
+}
+@font-face{
+    font-family: Geomanist;
+    src: url(./assets/fonts/geomanist-regular.woff2) format("woff2"),
+        url(./assets/fonts/geomanist-regular.woff) format("woff")
+}
+@font-face{
+    font-weight: 700;
+    font-family: Geomanist;
+    src: url(./assets/fonts/geomanist-bold.woff2) format("woff2"),
+        url(./assets/fonts/geomanist-bold.woff) format("woff");
+}
+@font-face{
+    font-weight: 900;
+    font-family: Geomanist;
+    src: url(./assets/fonts/geomanist-black.woff2) format("woff2"),
+        url(./assets/fonts/geomanist-black.woff) format("woff");
+}
+@font-face{
+    font-style: italic;
+    font-family: Geomanist;
+    src: url(./assets/fonts/geomanist-regular-italic.woff2) format("woff2"),
+        url(./assets/fonts/geomanist-regular-italic.woff) format("woff");
+}
+@font-face{
+    font-weight: 700;
+    font-style: italic;
+    font-family: Geomanist;
+    src: url(./assets/fonts/geomanist-bold-italic.woff2) format("woff2"),
+        url(./assets/fonts/geomanist-bold-italic.woff) format("woff");
+}
+
+
+*, :after, :before {
+    box-sizing: border-box;
+}
+* {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+html, body { height: 100%; }
+body {
+    margin: 0;
+    background: url('./assets/img/hutch-office.jpg') no-repeat 50% 50%/cover;
+    font-size: 18px;
+    font-family: Geomanist,Arial,Helvetica,sans-serif;
+}
+
+// body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.container {
+    overflow: auto;
+    flex: 1;
+    margin: 0 auto;
+    padding: 32px;
+    max-width: 95%;
+    width: 95%;
+    background: #fff;
+}

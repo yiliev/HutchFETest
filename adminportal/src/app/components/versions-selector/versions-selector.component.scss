@@ -1,0 +1,18 @@
+:host {
+    float: right;
+
+    .mat-form-field {
+        width: 80px;
+    }
+
+    ::ng-deep {
+        .mat-form-field-label {
+            color: #fff;
+            opacity: .5;
+        }
+
+        .mat-select-value  {
+            color: #fff;
+        }
+    }
+}

@@ -1,0 +1,25 @@
+<form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+    <mat-form-field>
+        <mat-label>Username</mat-label>
+        <input
+            matInput
+            name="username"
+            formControlName="username"
+        />
+    </mat-form-field>
+
+    <mat-form-field>
+        <mat-label>Password</mat-label>
+        <input
+            matInput
+            name="password"
+            type="password"
+            formControlName="password"
+        />
+    </mat-form-field>
+
+    <button type="submit" mat-raised-button color="primary" [disabled]="loading">
+        Log in
+        <mat-spinner *ngIf="loading" color="accent" diameter="19"></mat-spinner>
+    </button>
+</form>

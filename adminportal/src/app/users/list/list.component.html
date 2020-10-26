@@ -1,0 +1,15 @@
+<table>
+    <tr *ngFor="let user of users">
+        <td>
+            <mat-tab-group>
+                <mat-tab *ngFor="let tab of tabs" [label]="tab.label" #thisTab>
+                    <app-data-visualisation
+                        *ngIf="thisTab.isActive"
+                        [data]="user[tab.prop]"
+                    ></app-data-visualisation>
+                    <!-- TODO: slice data and add pagination  -->
+                </mat-tab>
+            </mat-tab-group>
+        </td>
+    </tr>
+</table>

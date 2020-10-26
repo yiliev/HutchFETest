@@ -1,0 +1,21 @@
+.mainNav {
+    display: flex;
+}
+
+.mainNav__link {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    margin-left: 2rem;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 400;
+    line-height: 2em;
+}
+
+.mainNav__count {
+    align-self: center;
+    margin-right: .25rem;
+    font-size: .75rem;
+    opacity: .5;
+}

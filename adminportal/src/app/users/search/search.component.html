@@ -1,0 +1,47 @@
+<form [formGroup]="searchForm" (ngSubmit)="onSubmit()">
+    <div class="search_uniqueIds">
+        <mat-form-field>
+            <mat-label>User ID</mat-label>
+            <input
+                matInput
+                name="username"
+            />
+        </mat-form-field>
+        <br />
+        <mat-radio-group aria-label="Media">
+            <mat-radio-button value="HutchId" checked>HutchId</mat-radio-button>
+            <mat-radio-button value="FacebookId">FacebookId</mat-radio-button>
+            <mat-radio-button value="GoogleId">GoogleId</mat-radio-button>
+            <mat-radio-button value="AppleId">AppleId</mat-radio-button>
+        </mat-radio-group>
+    </div>
+
+
+    <mat-form-field>
+        <mat-label>Device ID</mat-label>
+        <input
+            matInput
+            name="deviceid"
+        />
+    </mat-form-field>
+
+    <mat-form-field>
+        <mat-label>GoogleReceiptId</mat-label>
+        <input
+            matInput
+            name="googlereceiptid"
+        />
+    </mat-form-field>
+
+    <mat-form-field>
+        <mat-label>Social Name</mat-label>
+        <input
+            matInput
+            name="socialname"
+        />
+    </mat-form-field>
+
+    <button type="submit" mat-raised-button color="primary">
+        Search
+    </button>
+</form>

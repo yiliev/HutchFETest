@@ -1,0 +1,31 @@
+<mat-form-field>
+    <mat-label>App Version</mat-label>
+    <mat-select
+        name="appVersion"
+        [(ngModel)]="appVersion"
+        (selectionChange)="setAppVersion()"
+    >
+        <mat-option
+            *ngFor="let version of appVersions"
+            [value]="version"
+        >
+            {{ version }}
+        </mat-option>
+    </mat-select>
+</mat-form-field>
+
+<mat-form-field>
+    <mat-label>Data Version</mat-label>
+    <mat-select
+        name="dataVersion"
+        [(ngModel)]="dataVersion"
+        (selectionChange)="setDataVersion()"
+    >
+        <mat-option
+            *ngFor="let version of dataVersions"
+            [value]="version"
+        >
+            {{ version }}
+        </mat-option>
+    </mat-select>
+</mat-form-field>

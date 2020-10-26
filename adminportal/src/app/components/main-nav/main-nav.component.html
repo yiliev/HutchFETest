@@ -1,0 +1,8 @@
+<nav class="mainNav">
+    <a class="mainNav__link" [routerLink]="link.path" *ngFor="let link of links; let i = index">
+        <span class="mainNav__count">
+            {{ i < 9 ? 0 : '' }}{{ i + 1 }}
+        </span>
+        {{ link.label }}
+    </a>
+</nav>

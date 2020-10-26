@@ -1,0 +1,36 @@
+:host {
+    display: flex;
+    flex-flow: column wrap;
+
+    app-data-visualisation {
+        padding-left: 32px;
+    }
+
+    .mat-table {
+        width: 100%;
+    }
+}
+.dvi__value--noOffset {
+    app-data-visualisation {
+        padding-left: 0;
+    }
+}
+
+.dvi {
+    margin-bottom: 10px;
+    // TOOD:columns layout, move tables below everything else
+    // width: 33%;
+}
+
+.dvi__label {
+    font-weight: 100;
+    opacity: .5;
+}
+
+.dvi__value {
+    min-height: 24px;
+
+    ul {
+        margin: 0;
+    }
+}
